@@ -1,70 +1,175 @@
-# Getting Started with Create React App
+📘 Real Estate Investment Landing Page & Dashboard
+A modern, responsive Real Estate Investment UI built using React.js, SCSS, Material UI (MUI), Bootstrap, and React Router.
+This project replicates a professional landing page and investment dashboard UI based on the provided Figma design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+🔹 Landing Page
 
-## Available Scripts
+    Content section with gradient backgrounds
 
-In the project directory, you can run:
+    Investment statistics & metrics
 
-### `npm start`
+    Responsive layout for mobile/tablet/desktop
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Styled components & modern typography
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔹 Investment Dashboard
 
-### `npm test`
+    Investor profile card
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Real estate investment cards (Aurora, Gemini Apartments, Genesis etc.)
 
-### `npm run build`
+    Data cards showing committed amount, distribution, contribution & yield
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Clean UI with rounded card components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔹 Global Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Fully Responsive UI (mobile-first)
 
-### `npm run eject`
+    Styled using SCSS + Material UI + Bootstrap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Navigation using React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Optimized build for deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    GitHub Pages Deployment Support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠️ Tech Stack
 
-## Learn More
+Technology	            Purpose
+-----------------------------------------
+React.js	            Frontend UI
+SCSS	                Custom styling
+Material UI	            Modern UI components
+Bootstrap	            Grid & responsive styles
+Lucide-react	        Icons
+React Router DOM        Routing/navigation
+gh-pages	            Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Folder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+my-app/
+│── public/
+│── src/
+|__ |── assests/
+│   │   ├── assests
+|   |   |   |──images
+|   │   │   ├── icon.js
+|   │   │   ├── useResponsive.jsx
+|   │   │   └── view.scss
+│   ├── components/
+│   │   ├── Common/
+|   |   |   |──Buttons.jsx
+|   │   │   ├── common.scss
+|   │   │   ├── Drawer.jsx
+|   │   │   └── Sidebar.jsx
+|   │   │   └── Textfield.jsx
+│   │   ├── Hedaer/
+|   |   |   |── Header.jsx
+|   │   │   ├── Header.scss
+|   │   │   ├── Mobile.scss
+│   │   ├── Mainpage/
+|   |   |   |── Aboutus.jsx
+|   │   │   ├── Content.jsx
+|   │   │   ├── Fotter.jsx
+|   │   │   └── Mainpage.jsx
+|   │   │   ├── Mainpage.scss
+|   │   │   ├── MobileMainpage.jsx
+|   │   │   └── Newspage.jsx
+│   │   └── utilis/
+|   |   |   |── Mockdata.jsx
+│   ├── App.js
+│   ├── index.js
+│── package.json
+│── README.md
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⚙️ Scripts (from package.json)
 
-### Analyzing the Bundle Size
+Script	           Description
+---------------------------------
+npm start	       Run dev server
+npm run build	   Build production bundle
+npm run deploy	   Deploy build to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+🧑‍💻 Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1️⃣ Clone the repository
+(https://github.com/Sarika-T/Lillypods.git)
+cd my-app
 
-### Advanced Configuration
+2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+3️⃣ Start development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+4️⃣ Build for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm run build
+
+5️⃣ Deploy to GitHub Pages
+
+"homepage": "https://sarika-t.github.io/Lillypods/",
+
+
+Then deploy:
+
+npm run deploy
+
+📦 Dependencies Used
+
+"@mui/material": "^7.3.5",
+"@mui/icons-material": "^7.3.5",
+"react-bootstrap": "^2.10.10",
+"bootstrap": "^5.3.8",
+"react-router-dom": "^7.9.6",
+"sass": "^1.94.2",
+"lucide-react": "^0.555.0",
+"gh-pages": "^6.3.0"
+
+
+
+
+🌟 Live Demo
+
+👉https://sarika-t.github.io/Lillypods/
+
+🤝 Contributing
+
+Pull requests are welcome. Feel free to open issues for improvements or bug fixes.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+## 🚧 Future Enhancements
+
+These are the planned updates to improve the project in future releases:
+
+- 🔐 Add **Dynamic content** functionality  
+- 🔎 Implement **Tabs in Mobile** for content browsing  
+- 🧠 Integrate routes **Network/Technology/knowledge-center etc** for more tabs.
+- 🖼️ Add **image assets and category thumbnails** dynamically  
+- 📱 Improve **tablet-view , Responsiveness** .
+
+---
+
+## 📜 Disclaimer
+ 
+It is a **frontend static design** built for **educational and portfolio purposes only**.  
+
+
+---
+
+## 👨‍💻 Author
+
+**T Sarika**  
+Frontend Developer | React.js | UI/UX Enthusiast  
+📫 [talarisarika22@gmail.com](mailto:talarisarika22@gmail.com)  
+🌐 [LinkedIn](https://linkedin.com/in/sarika-talari-7a1b91217) | [GitHub](https://github.com/Sarika-T/)
