@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Lillypods/static/css/main.d8b0f19b.css",
+    "main.js": "/Lillypods/static/js/main.15fc00b5.js",
+    "static/js/453.117b0875.chunk.js": "/Lillypods/static/js/453.117b0875.chunk.js",
+    "static/media/mobile-view.png": "/Lillypods/static/media/mobile-view.9999458cf852be75c596.png",
+    "static/media/mobile-view2.png": "/Lillypods/static/media/mobile-view2.840ca50e996f7fc316d6.png",
+    "static/media/decision.png": "/Lillypods/static/media/decision.e4b42752277796654b96.png",
+    "static/media/security.png": "/Lillypods/static/media/security.fe1a5790300ec5ff4d39.png",
+    "static/media/subscribers.png": "/Lillypods/static/media/subscribers.9ab813b69d92c917368e.png",
+    "static/media/manager.png": "/Lillypods/static/media/manager.0fbd15f31534dfe860c4.png",
+    "static/media/optimize.png": "/Lillypods/static/media/optimize.8ddd7c3c08e5abe2df00.png",
+    "static/media/logo.svg": "/Lillypods/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Lillypods/index.html",
+    "main.d8b0f19b.css.map": "/Lillypods/static/css/main.d8b0f19b.css.map",
+    "main.15fc00b5.js.map": "/Lillypods/static/js/main.15fc00b5.js.map",
+    "453.117b0875.chunk.js.map": "/Lillypods/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b0f19b.css",
+    "static/js/main.15fc00b5.js"
+  ]
+}
