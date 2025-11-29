@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, HashRouter, Route, Routes} from "react-router-dom";
 import MainPage from './components/Mainpage/Mainpage';
 import NewsPage from './components/Mainpage/Newspage';
 import MobileMainpage from './components/Mainpage/MobileMainpage';
@@ -11,7 +11,7 @@ function App() {
   const smUp = useResponsive("up", "sm");
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className='App'>
       <Routes>
          {smUp ? (
@@ -22,7 +22,7 @@ function App() {
         )}
       </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
