@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {HashRouter, HashRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import MainPage from './components/Mainpage/Mainpage';
 import NewsPage from './components/Mainpage/Newspage';
 import MobileMainpage from './components/Mainpage/MobileMainpage';
